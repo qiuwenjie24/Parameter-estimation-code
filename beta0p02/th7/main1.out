@@ -1,0 +1,99 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+[Warning: A task was unexpectedly found in state: Unavailable.] 
+[> In parallel.cluster.Local/deriveJobStateFromTasks (line 29)
+In parallel.cluster/Local/getJobState (line 174)
+In parallel.cluster/CJSCluster/hGetJobState (line 375)
+In parallel.internal.cluster/CJSJobMixin/hGetStateEnum (line 175)
+In parallel/Job/get.StateEnum (line 247)
+In parallel/Job/get.State (line 239)
+In parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (line 128)
+In parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (line 102)
+In parallel.internal.customattr/CustomGetSet/doVectorisedGet (line 103)
+In parallel.internal.customattr/CustomGetSet/hVectorisedGet (line 76)
+In parallel.internal.customattr.GetSetImpl>iAccessProperties (line 322)
+In parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (line 264)
+In parallel.internal.customattr/GetSetImpl/getImpl (line 133)
+In parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (line 154)
+In parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (line 139)
+In parallel.internal.cluster.hetfun (line 46)
+In parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (line 139)
+In parallel.internal.customattr/CustomGetSet/get (line 38)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 211)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 103)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 831)
+In parallel.internal.pool/AbstractClusterPool/hBuildPool (line 585)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 123)
+In parallel.internal.parpool.getOrCreateCurrentPool (line 17)
+In parallel.internal.pool/PoolArrayManager/getOrAutoCreateWithCleanup (line 44)
+In pctTryCreatePoolIfNecessary (line 28)
+In parallel_function (line 423)
+In fn_measure (line 41)] 
+Connected to the parallel pool (number of workers: 12).
+Error of vP is 5.200548e-08 
+Error of vP is 5.120602e-08 
+Error of vP is 5.471483e-08 
+Error of vP is 5.083683e-08 
+Error of vP is 5.171088e-08 
+Error of vP is 8.540273e-08 
+Error of vP is 5.538040e-08 
+Error of vP is 7.108590e-08 
+Error of vP is 5.879048e-08 
+Error of vP is 5.380264e-08 
+Error of vP is 5.374868e-08 
+Error of vP is 6.064585e-08 
+Error of vP is 6.314858e-08 
+Error of vP is 8.181318e-08 
+Error of vP is 8.512125e-08 
+Error of vP is 5.136336e-08 
+Error of vP is 7.946250e-08 
+Error of vP is 7.811223e-08 
+Error of vP is 1.419523e-07 
+Error of vP is 1.191680e-07 
+Error of vP is 7.963384e-08 
+Error of vP is 9.559169e-08 
+Error of vP is 1.593219e-07 
+Error of vP is 9.326860e-08 
+Error of vP is 6.023320e-08 
+Error of vP is 1.364769e-07 
+Error of vP is 9.532475e-08 
+Error of vP is 8.117721e-08 
+Error of vP is 8.809754e-08 
+Error of vP is 5.396292e-08 
+Error of vP is 5.319257e-08 
+Error of vP is 9.426660e-08 
+Error of vP is 8.987767e-08 
+Error of vP is 1.183517e-07 
+Error of vP is 1.413929e-07 
+Error of vP is 7.125891e-08 
+Error of vP is 8.695906e-08 
+Error of vP is 5.335190e-08 
+Error of vP is 6.959649e-08 
+Error of vP is 6.268498e-08 
+Error of vP is 5.455351e-08 
+Error of vP is 5.517014e-08 
+Error of vP is 1.137378e-07 
+Error of vP is 7.722009e-08 
+Error of vP is 8.768406e-08 
+Error of vP is 1.297908e-07 
+Error of vP is 6.259794e-08 
+Error of vP is 5.583472e-08 
+Error of vP is 9.665950e-08 
+Error of vP is 5.190775e-08 
+>> >> 
+endtime =
+
+   3.9410e+04
+
+>> >> >> >> >> >> 

@@ -1,0 +1,357 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+[Warning: A task was unexpectedly found in state: Unavailable.] 
+[> In parallel.cluster.Local/deriveJobStateFromTasks (line 29)
+In parallel.cluster/Local/getJobState (line 174)
+In parallel.cluster/CJSCluster/hGetJobState (line 375)
+In parallel.internal.cluster/CJSJobMixin/hGetStateEnum (line 175)
+In parallel/Job/get.StateEnum (line 247)
+In parallel/Job/get.State (line 239)
+In parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (line 128)
+In parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (line 102)
+In parallel.internal.customattr/CustomGetSet/doVectorisedGet (line 103)
+In parallel.internal.customattr/CustomGetSet/hVectorisedGet (line 76)
+In parallel.internal.customattr.GetSetImpl>iAccessProperties (line 322)
+In parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (line 264)
+In parallel.internal.customattr/GetSetImpl/getImpl (line 133)
+In parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (line 154)
+In parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (line 139)
+In parallel.internal.cluster.hetfun (line 46)
+In parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (line 139)
+In parallel.internal.customattr/CustomGetSet/get (line 38)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 211)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 103)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 831)
+In parallel.internal.pool/AbstractClusterPool/hBuildPool (line 585)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 123)
+In parallel.internal.parpool.getOrCreateCurrentPool (line 17)
+In parallel.internal.pool/PoolArrayManager/getOrAutoCreateWithCleanup (line 44)
+In pctTryCreatePoolIfNecessary (line 28)
+In parallel_function (line 423)
+In fn_measure (line 41)] 
+Connected to the parallel pool (number of workers: 12).
+Error of vP is 6.568536e-08 
+Error of vP is 5.555250e-08 
+Error of vP is 5.142205e-08 
+Error of vP is 9.227469e-08 
+Error of vP is 1.155265e-07 
+Error of vP is 6.189696e-08 
+Error of vP is 7.256965e-08 
+Error of vP is 1.114013e-07 
+Error of vP is 8.797559e-08 
+Error of vP is 1.583648e-07 
+Error of vP is 6.066228e-08 
+Error of vP is 8.557412e-08 
+Error of vP is 1.017825e-07 
+Error of vP is 8.760371e-08 
+Error of vP is 9.415033e-08 
+Error of vP is 1.287522e-07 
+Error of vP is 5.851256e-08 
+Error of vP is 7.639428e-08 
+Error of vP is 5.497846e-08 
+Error of vP is 6.080526e-08 
+Error of vP is 6.635031e-08 
+Error of vP is 5.182891e-08 
+Error of vP is 5.719630e-08 
+Error of vP is 7.480128e-08 
+Error of vP is 7.461311e-08 
+Error of vP is 5.659092e-08 
+Error of vP is 7.802373e-08 
+Error of vP is 2.051412e-07 
+Error of vP is 7.296745e-08 
+Error of vP is 2.086182e-07 
+Error of vP is 1.543203e-07 
+Error of vP is 1.089169e-07 
+Error of vP is 9.316931e-08 
+Error of vP is 2.464383e-07 
+Error of vP is 8.606149e-08 
+Error of vP is 1.257209e-07 
+Error of vP is 9.737160e-08 
+Error of vP is 1.169989e-07 
+Error of vP is 9.787576e-08 
+Error of vP is 3.156845e-07 
+Error of vP is 2.039244e-07 
+Error of vP is 6.141822e-08 
+Error of vP is 3.101209e-07 
+Error of vP is 2.219647e-07 
+Error of vP is 8.825173e-08 
+Error of vP is 5.366095e-08 
+Error of vP is 7.652759e-08 
+Error of vP is 5.272745e-08 
+Error of vP is 9.156354e-08 
+Error of vP is 6.426477e-08 
+Error of vP is 7.740877e-08 
+Error of vP is 7.500807e-08 
+Error of vP is 5.087772e-08 
+Error of vP is 7.177742e-08 
+Error of vP is 5.867859e-08 
+Error of vP is 6.028738e-08 
+Error of vP is 7.661251e-08 
+Error of vP is 6.226808e-08 
+Error of vP is 5.558492e-08 
+Error of vP is 6.852984e-08 
+Error of vP is 8.211698e-08 
+Error of vP is 1.570437e-07 
+Error of vP is 1.195573e-07 
+Error of vP is 1.796149e-07 
+Error of vP is 8.917125e-08 
+Error of vP is 2.321237e-07 
+Error of vP is 1.080564e-07 
+Error of vP is 8.221603e-08 
+Error of vP is 7.263603e-08 
+Error of vP is 7.610043e-08 
+Error of vP is 8.737742e-08 
+Error of vP is 8.713726e-08 
+Error of vP is 5.235898e-08 
+Error of vP is 6.831864e-08 
+Error of vP is 5.759513e-08 
+Error of vP is 5.547161e-08 
+Error of vP is 8.039158e-08 
+Error of vP is 8.674938e-08 
+Error of vP is 8.437869e-08 
+Error of vP is 9.884157e-08 
+Error of vP is 8.360336e-08 
+Error of vP is 1.018010e-07 
+Error of vP is 7.426573e-08 
+Error of vP is 8.899076e-08 
+Error of vP is 6.652273e-08 
+Error of vP is 7.170271e-08 
+Error of vP is 8.066691e-08 
+Error of vP is 6.362547e-08 
+Error of vP is 5.451511e-08 
+Error of vP is 7.528164e-08 
+Error of vP is 6.552328e-08 
+Error of vP is 5.808269e-08 
+Error of vP is 6.312619e-08 
+Error of vP is 6.354678e-08 
+Error of vP is 5.914114e-08 
+Error of vP is 6.360021e-08 
+Error of vP is 5.748628e-08 
+Error of vP is 7.853998e-08 
+Error of vP is 5.742889e-08 
+Error of vP is 5.544059e-08 
+Error of vP is 5.231987e-08 
+Error of vP is 5.423724e-08 
+Error of vP is 8.283591e-08 
+Error of vP is 7.936010e-08 
+Error of vP is 6.542016e-08 
+Error of vP is 1.236832e-07 
+Error of vP is 5.771974e-08 
+Error of vP is 7.492185e-08 
+Error of vP is 7.105106e-08 
+Error of vP is 8.332054e-08 
+Error of vP is 5.223278e-08 
+Error of vP is 5.687183e-08 
+Error of vP is 7.756528e-08 
+Error of vP is 6.061969e-08 
+Error of vP is 5.841040e-08 
+Error of vP is 5.422012e-08 
+Error of vP is 5.292728e-08 
+Error of vP is 6.183200e-08 
+Error of vP is 7.654148e-08 
+Error of vP is 8.467419e-08 
+Error of vP is 5.189577e-08 
+Error of vP is 9.201035e-08 
+Error of vP is 8.381372e-08 
+Error of vP is 5.691140e-08 
+Error of vP is 6.657394e-08 
+Error of vP is 5.876651e-08 
+Error of vP is 6.930311e-08 
+Error of vP is 5.397091e-08 
+Error of vP is 7.803607e-08 
+Error of vP is 5.389232e-08 
+Error of vP is 5.869097e-08 
+Error of vP is 5.178356e-08 
+Error of vP is 6.264066e-08 
+Error of vP is 5.234822e-08 
+Error of vP is 9.543649e-08 
+Error of vP is 1.456538e-07 
+Error of vP is 1.266650e-07 
+Error of vP is 1.420247e-07 
+Error of vP is 5.207952e-08 
+Error of vP is 1.660151e-07 
+Error of vP is 6.437238e-08 
+Error of vP is 5.248076e-08 
+Error of vP is 6.183173e-08 
+Error of vP is 6.268262e-08 
+Error of vP is 5.625620e-08 
+Error of vP is 8.409292e-08 
+Error of vP is 1.526433e-07 
+Error of vP is 5.475519e-08 
+Error of vP is 9.726555e-08 
+Error of vP is 7.851014e-08 
+Error of vP is 6.444636e-08 
+Error of vP is 8.945417e-08 
+Error of vP is 5.376386e-08 
+Error of vP is 5.417251e-08 
+Error of vP is 6.018869e-08 
+Error of vP is 5.261458e-08 
+Error of vP is 6.708435e-08 
+Error of vP is 8.443441e-08 
+Error of vP is 7.318679e-08 
+Error of vP is 5.206099e-08 
+Error of vP is 6.567306e-08 
+Error of vP is 9.326254e-08 
+Error of vP is 5.243017e-08 
+Error of vP is 6.046780e-08 
+Error of vP is 5.111226e-08 
+Error of vP is 5.149937e-08 
+Error of vP is 6.641850e-08 
+Error of vP is 8.441948e-08 
+Error of vP is 5.738387e-08 
+Error of vP is 6.215175e-08 
+Error of vP is 5.889770e-08 
+Error of vP is 5.774215e-08 
+Error of vP is 6.024405e-08 
+Error of vP is 7.547523e-08 
+Error of vP is 5.426207e-08 
+Error of vP is 8.311407e-08 
+Error of vP is 5.749566e-08 
+Error of vP is 1.066781e-07 
+Error of vP is 6.023833e-08 
+Error of vP is 7.757074e-08 
+Error of vP is 7.050696e-08 
+Error of vP is 5.853904e-08 
+Error of vP is 1.260528e-07 
+Error of vP is 5.029849e-08 
+Error of vP is 5.708759e-08 
+Error of vP is 5.706026e-08 
+Error of vP is 6.813730e-08 
+Error of vP is 7.898266e-08 
+Error of vP is 1.028194e-07 
+Error of vP is 1.245000e-07 
+Error of vP is 1.110670e-07 
+Error of vP is 2.405247e-07 
+Error of vP is 2.214407e-07 
+Error of vP is 1.177784e-07 
+Error of vP is 2.486803e-07 
+Error of vP is 3.097818e-07 
+Error of vP is 1.179046e-07 
+Error of vP is 3.653348e-07 
+Error of vP is 1.283324e-07 
+Error of vP is 2.747524e-07 
+Error of vP is 1.281292e-07 
+Error of vP is 2.070198e-07 
+Error of vP is 1.325997e-07 
+Error of vP is 1.776888e-07 
+Error of vP is 1.214695e-07 
+Error of vP is 9.465690e-08 
+Error of vP is 4.323863e-07 
+Error of vP is 9.228601e-08 
+Error of vP is 9.790273e-08 
+Error of vP is 1.012845e-07 
+Error of vP is 1.031892e-07 
+Error of vP is 1.263448e-07 
+Error of vP is 3.187876e-07 
+Error of vP is 2.788466e-07 
+Error of vP is 1.309182e-07 
+Error of vP is 1.821198e-07 
+Error of vP is 2.462768e-07 
+Error of vP is 1.219753e-07 
+Error of vP is 1.329552e-07 
+Error of vP is 6.120003e-08 
+Error of vP is 5.085356e-08 
+Error of vP is 6.897205e-08 
+Error of vP is 6.833582e-08 
+Error of vP is 6.186141e-08 
+Error of vP is 8.785733e-08 
+Error of vP is 1.073248e-07 
+Error of vP is 7.434270e-08 
+Error of vP is 8.672777e-08 
+Error of vP is 6.008101e-08 
+Error of vP is 7.113534e-08 
+Error of vP is 8.120762e-08 
+Error of vP is 9.717850e-08 
+Error of vP is 1.000133e-07 
+Error of vP is 5.562371e-08 
+Error of vP is 6.694511e-08 
+Error of vP is 1.325948e-07 
+Error of vP is 1.409308e-07 
+Error of vP is 1.473562e-07 
+Error of vP is 6.626872e-08 
+Error of vP is 5.846076e-08 
+Error of vP is 1.663042e-07 
+Error of vP is 7.988275e-08 
+Error of vP is 5.763796e-08 
+Error of vP is 1.932904e-07 
+Error of vP is 7.573086e-08 
+Error of vP is 1.012039e-07 
+Error of vP is 5.833482e-08 
+Error of vP is 9.164364e-08 
+Error of vP is 2.710390e-07 
+Error of vP is 1.287549e-07 
+Error of vP is 6.044626e-08 
+Error of vP is 1.026146e-07 
+Error of vP is 1.469670e-07 
+Error of vP is 1.321592e-07 
+Error of vP is 8.361794e-08 
+Error of vP is 1.243670e-07 
+Error of vP is 2.199093e-07 
+Error of vP is 1.770641e-07 
+Error of vP is 1.927092e-07 
+Error of vP is 2.108972e-07 
+Error of vP is 1.847579e-07 
+Error of vP is 2.214773e-07 
+Error of vP is 7.782501e-08 
+Error of vP is 5.618923e-08 
+Error of vP is 6.321074e-08 
+Error of vP is 5.101188e-08 
+Error of vP is 2.674850e-07 
+Error of vP is 9.422949e-08 
+Error of vP is 6.182602e-08 
+Error of vP is 9.727449e-08 
+Error of vP is 5.632212e-08 
+Error of vP is 8.635856e-08 
+Error of vP is 1.490961e-07 
+Error of vP is 2.346925e-07 
+Error of vP is 1.366841e-07 
+Error of vP is 8.246249e-08 
+Error of vP is 1.497934e-07 
+Error of vP is 2.014394e-07 
+Error of vP is 1.535299e-07 
+Error of vP is 1.243839e-07 
+Error of vP is 1.573199e-07 
+Error of vP is 1.153679e-07 
+Error of vP is 2.217524e-07 
+Error of vP is 9.590099e-08 
+Error of vP is 2.754576e-07 
+Error of vP is 1.445822e-07 
+Error of vP is 1.798099e-07 
+Error of vP is 1.389220e-07 
+Error of vP is 4.319509e-07 
+Error of vP is 1.232089e-07 
+Error of vP is 2.351737e-07 
+Error of vP is 3.320895e-07 
+Error of vP is 2.154915e-07 
+Error of vP is 5.505779e-08 
+Error of vP is 7.624449e-08 
+Error of vP is 6.212142e-08 
+Error of vP is 5.771094e-08 
+Error of vP is 5.323383e-08 
+Error of vP is 5.756792e-08 
+Error of vP is 5.318002e-08 
+Error of vP is 5.239037e-08 
+Error of vP is 8.117137e-08 
+Error of vP is 5.516927e-08 
+Error of vP is 5.441910e-08 
+Error of vP is 8.707442e-08 
+Error of vP is 6.507117e-08 
+Error of vP is 6.629973e-08 
+Error of vP is 7.333631e-08 
+>> >> 
+endtime =
+
+   3.9540e+04
+
+>> >> >> >> >> >> 

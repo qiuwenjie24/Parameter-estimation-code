@@ -1,0 +1,37 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+[Warning: The Cluster reported an error while destroying a job. The error was:
+Could not open file
+"/home/qiuwenjie/.matlab/local_cluster_jobs/R2021b/Job7.in.mat", the error
+returned was: Unable to find file or directory
+'/home/qiuwenjie/.matlab/local_cluster_jobs/R2021b/Job7.in.mat'...] 
+[> In parallel.internal.cluster/CJSJobMethods/destroyOneJob (line 79)
+In parallel.job.CJSConcurrentJob>@(job)CJSJobMethods.destroyOneJob(job.Parent,job,job.Support,job.SupportID) (line 52)
+In parallel.job/CJSConcurrentJob/destroyJob (line 52)
+In parallel.Job>iDeleteJobs (line 1552)
+In parallel.internal.cluster.hetfun (line 57)
+In parallel/Job/delete (line 1349)
+In parallel/Cluster/hDeleteOneJob (line 1023)
+In parallel.internal.pool.AbstractInteractiveClient>iDeleteJobs (line 495)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 218)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 103)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 831)
+In parallel.internal.pool/AbstractClusterPool/hBuildPool (line 585)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 123)
+In parallel.internal.parpool.getOrCreateCurrentPool (line 17)
+In parallel.internal.pool/PoolArrayManager/getOrAutoCreateWithCleanup (line 44)
+In pctTryCreatePoolIfNecessary (line 28)
+In parallel_function (line 423)] 
+Connected to the parallel pool (number of workers: 12).
+>> >> >> >> >> >> 

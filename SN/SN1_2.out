@@ -1,0 +1,80 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+jj1 =
+
+     1
+
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+jj1-jj2 = 1 - 1 
+jj1-jj2 = 1 - 2 
+jj1-jj2 = 1 - 3 
+jj1-jj2 = 1 - 4 
+jj1-jj2 = 1 - 5 
+jj1-jj2 = 1 - 6 
+jj1-jj2 = 1 - 7 
+jj1-jj2 = 1 - 8 
+jj1-jj2 = 1 - 9 
+jj1-jj2 = 1 - 10 
+jj1-jj2 = 1 - 11 
+jj1-jj2 = 1 - 12 
+jj1-jj2 = 1 - 13 
+jj1-jj2 = 1 - 14 
+jj1-jj2 = 1 - 15 
+jj1-jj2 = 1 - 16 
+jj1-jj2 = 1 - 17 
+jj1-jj2 = 1 - 18 
+jj1-jj2 = 1 - 19 
+jj1-jj2 = 1 - 20 
+jj1-jj2 = 1 - 21 
+jj1-jj2 = 1 - 22 
+jj1-jj2 = 1 - 23 
+
+endtime =
+
+   2.4695e+04
+
+
+jj1 =
+
+     2
+
+jj1-jj2 = 2 - 1 
+jj1-jj2 = 2 - 2 
+jj1-jj2 = 2 - 3 
+jj1-jj2 = 2 - 4 
+jj1-jj2 = 2 - 5 
+jj1-jj2 = 2 - 6 
+jj1-jj2 = 2 - 7 
+jj1-jj2 = 2 - 8 
+jj1-jj2 = 2 - 9 
+jj1-jj2 = 2 - 10 
+jj1-jj2 = 2 - 11 
+jj1-jj2 = 2 - 12 
+jj1-jj2 = 2 - 13 
+jj1-jj2 = 2 - 14 
+jj1-jj2 = 2 - 15 
+jj1-jj2 = 2 - 16 
+jj1-jj2 = 2 - 17 
+jj1-jj2 = 2 - 18 
+jj1-jj2 = 2 - 19 
+jj1-jj2 = 2 - 20 
+jj1-jj2 = 2 - 21 
+jj1-jj2 = 2 - 22 
+jj1-jj2 = 2 - 23 
+
+endtime =
+
+   2.1605e+04
+
+>> 

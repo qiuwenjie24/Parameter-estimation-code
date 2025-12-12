@@ -1,0 +1,241 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+[Warning: A task was unexpectedly found in state: Unavailable.] 
+[> In parallel.cluster.Local/deriveJobStateFromTasks (line 29)
+In parallel.cluster/Local/getJobState (line 174)
+In parallel.cluster/CJSCluster/hGetJobState (line 375)
+In parallel.internal.cluster/CJSJobMixin/hGetStateEnum (line 175)
+In parallel/Job/get.StateEnum (line 247)
+In parallel/Job/get.State (line 239)
+In parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (line 128)
+In parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (line 102)
+In parallel.internal.customattr/CustomGetSet/doVectorisedGet (line 103)
+In parallel.internal.customattr/CustomGetSet/hVectorisedGet (line 76)
+In parallel.internal.customattr.GetSetImpl>iAccessProperties (line 322)
+In parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (line 264)
+In parallel.internal.customattr/GetSetImpl/getImpl (line 133)
+In parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (line 154)
+In parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (line 139)
+In parallel.internal.cluster.hetfun (line 46)
+In parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (line 139)
+In parallel.internal.customattr/CustomGetSet/get (line 38)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 211)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 103)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 831)
+In parallel.internal.pool/AbstractClusterPool/hBuildPool (line 585)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 123)
+In parallel.internal.parpool.getOrCreateCurrentPool (line 17)
+In parallel.internal.pool/PoolArrayManager/getOrAutoCreateWithCleanup (line 44)
+In pctTryCreatePoolIfNecessary (line 28)
+In parallel_function (line 423)
+In fn_measure (line 41)] 
+Connected to the parallel pool (number of workers: 12).
+Error of vP is 6.119218e-08 
+Error of vP is 5.316367e-08 
+Error of vP is 5.469251e-08 
+Error of vP is 5.868556e-08 
+Error of vP is 5.591743e-08 
+Error of vP is 5.061949e-08 
+Error of vP is 6.880462e-08 
+Error of vP is 6.907135e-08 
+Error of vP is 7.723092e-08 
+Error of vP is 1.712534e-07 
+Error of vP is 9.289838e-08 
+Error of vP is 1.225091e-07 
+Error of vP is 5.566627e-08 
+Error of vP is 7.856527e-08 
+Error of vP is 7.242014e-08 
+Error of vP is 8.508555e-08 
+Error of vP is 7.514556e-08 
+Error of vP is 6.738281e-08 
+Error of vP is 2.038490e-07 
+Error of vP is 9.368582e-08 
+Error of vP is 1.126006e-07 
+Error of vP is 8.594793e-08 
+Error of vP is 1.219379e-07 
+Error of vP is 8.036013e-08 
+Error of vP is 1.080582e-07 
+Error of vP is 1.325702e-07 
+Error of vP is 1.815017e-07 
+Error of vP is 8.101480e-08 
+Error of vP is 7.135704e-08 
+Error of vP is 1.439971e-07 
+Error of vP is 1.121465e-07 
+Error of vP is 1.066364e-07 
+Error of vP is 1.136595e-07 
+Error of vP is 1.191909e-07 
+Error of vP is 3.586061e-07 
+Error of vP is 5.718950e-07 
+Error of vP is 8.665506e-08 
+Error of vP is 2.612752e-07 
+Error of vP is 2.344068e-07 
+Error of vP is 1.625295e-07 
+Error of vP is 1.700314e-07 
+Error of vP is 5.916697e-08 
+Error of vP is 8.911941e-08 
+Error of vP is 2.197176e-07 
+Error of vP is 9.756879e-08 
+Error of vP is 1.926190e-07 
+Error of vP is 1.295875e-07 
+Error of vP is 1.438461e-07 
+Error of vP is 2.224308e-07 
+Error of vP is 1.065824e-07 
+Error of vP is 2.268743e-07 
+Error of vP is 1.295780e-07 
+Error of vP is 1.392934e-07 
+Error of vP is 9.090015e-08 
+Error of vP is 1.454201e-07 
+Error of vP is 1.227824e-07 
+Error of vP is 1.260322e-07 
+Error of vP is 1.358634e-07 
+Error of vP is 2.216564e-07 
+Error of vP is 1.709032e-07 
+Error of vP is 8.472281e-08 
+Error of vP is 1.974226e-07 
+Error of vP is 2.281092e-07 
+Error of vP is 6.383349e-08 
+Error of vP is 3.187691e-07 
+Error of vP is 1.180540e-07 
+Error of vP is 1.069442e-07 
+Error of vP is 5.124835e-08 
+Error of vP is 1.707363e-07 
+Error of vP is 8.646633e-08 
+Error of vP is 2.493801e-07 
+Error of vP is 7.480686e-08 
+Error of vP is 1.055150e-07 
+Error of vP is 4.150882e-07 
+Error of vP is 1.826264e-07 
+Error of vP is 5.841798e-08 
+Error of vP is 3.013810e-07 
+Error of vP is 2.326034e-07 
+Error of vP is 1.937033e-07 
+Error of vP is 9.782417e-08 
+Error of vP is 7.357013e-08 
+Error of vP is 3.697888e-07 
+Error of vP is 2.041905e-07 
+Error of vP is 8.849677e-08 
+Error of vP is 5.736203e-08 
+Error of vP is 1.013989e-07 
+Error of vP is 1.610703e-07 
+Error of vP is 2.710798e-07 
+Error of vP is 1.279047e-07 
+Error of vP is 6.583959e-08 
+Error of vP is 9.075337e-08 
+Error of vP is 2.209343e-07 
+Error of vP is 1.713590e-07 
+Error of vP is 3.594038e-07 
+Error of vP is 8.363747e-08 
+Error of vP is 1.087130e-07 
+Error of vP is 8.656330e-08 
+Error of vP is 2.985099e-07 
+Error of vP is 2.592972e-07 
+Error of vP is 1.409122e-07 
+Error of vP is 3.075595e-07 
+Error of vP is 5.889002e-08 
+Error of vP is 1.675197e-07 
+Error of vP is 3.119544e-07 
+Error of vP is 1.249507e-07 
+Error of vP is 2.525370e-07 
+Error of vP is 1.469680e-07 
+Error of vP is 1.291369e-07 
+Error of vP is 4.021897e-07 
+Error of vP is 3.924974e-07 
+Error of vP is 1.841897e-07 
+Error of vP is 1.611165e-07 
+Error of vP is 1.767541e-07 
+Error of vP is 3.857415e-07 
+Error of vP is 3.727753e-07 
+Error of vP is 6.017757e-08 
+Error of vP is 8.619988e-08 
+Error of vP is 2.412512e-07 
+Error of vP is 1.324544e-07 
+Error of vP is 3.551764e-07 
+Error of vP is 1.656670e-07 
+Error of vP is 3.545990e-07 
+Error of vP is 1.776749e-07 
+Error of vP is 5.952161e-08 
+Error of vP is 1.730389e-07 
+Error of vP is 2.278296e-07 
+Error of vP is 1.384242e-07 
+Error of vP is 1.300959e-07 
+Error of vP is 1.288965e-07 
+Error of vP is 2.827157e-07 
+Error of vP is 2.329533e-07 
+Error of vP is 2.830410e-07 
+Error of vP is 3.575267e-07 
+Error of vP is 7.821475e-08 
+Error of vP is 1.266815e-07 
+Error of vP is 2.836146e-07 
+Error of vP is 2.277008e-07 
+Error of vP is 1.240868e-07 
+Error of vP is 1.244262e-07 
+Error of vP is 2.458343e-07 
+Error of vP is 4.303128e-07 
+Error of vP is 1.569887e-07 
+Error of vP is 1.465424e-07 
+Error of vP is 2.208330e-07 
+Error of vP is 1.209560e-07 
+Error of vP is 1.533035e-07 
+Error of vP is 1.247330e-07 
+Error of vP is 5.733497e-08 
+Error of vP is 4.037804e-07 
+Error of vP is 9.571342e-08 
+Error of vP is 1.043375e-07 
+Error of vP is 4.678647e-07 
+Error of vP is 1.427387e-07 
+Error of vP is 4.713493e-07 
+Error of vP is 2.575540e-07 
+Error of vP is 5.581771e-08 
+Error of vP is 2.491018e-07 
+Error of vP is 1.233245e-07 
+Error of vP is 5.545599e-08 
+Error of vP is 4.723246e-07 
+Error of vP is 1.974414e-07 
+Error of vP is 1.978301e-07 
+Error of vP is 1.024317e-07 
+Error of vP is 3.028082e-07 
+Error of vP is 2.347275e-07 
+Error of vP is 2.202965e-07 
+Error of vP is 3.992296e-07 
+Error of vP is 1.549653e-07 
+Error of vP is 1.316417e-07 
+Error of vP is 1.875201e-07 
+Error of vP is 1.673134e-07 
+Error of vP is 3.332028e-07 
+Error of vP is 5.460958e-07 
+Error of vP is 2.604060e-07 
+Error of vP is 8.677273e-08 
+Error of vP is 4.199620e-07 
+Error of vP is 1.747435e-07 
+Error of vP is 3.456142e-07 
+Error of vP is 5.305852e-07 
+Error of vP is 7.540318e-08 
+Error of vP is 3.519641e-07 
+Error of vP is 1.885219e-07 
+Error of vP is 2.933503e-07 
+Error of vP is 1.247174e-07 
+Error of vP is 3.076221e-07 
+Error of vP is 3.530623e-07 
+Error of vP is 2.169124e-07 
+Error of vP is 1.691024e-07 
+Error of vP is 3.697923e-07 
+Error of vP is 9.912520e-08 
+Error of vP is 3.757105e-07 
+Error of vP is 5.729894e-08 
+>> >> 
+endtime =
+
+   3.9422e+04
+
+>> >> >> >> >> >> 

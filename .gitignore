@@ -1,0 +1,13 @@
+# .gitignore
+
+# matlab数据文件
+*.mat
+
+# excel数据文件
+*.xlsx
+
+# 图片
+*.png
+*.eps
+*.pdf
+

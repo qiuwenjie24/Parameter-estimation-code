@@ -1,0 +1,50 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+Error of vP is 5.792048e-08 
+Error of vP is 9.217960e-08 
+Error of vP is 6.589420e-08 
+Error of vP is 5.183595e-08 
+Error of vP is 5.636185e-08 
+Error of vP is 1.091988e-07 
+Error of vP is 8.856924e-08 
+Error of vP is 7.238822e-08 
+Error of vP is 9.154723e-08 
+Error of vP is 1.387132e-07 
+Error of vP is 8.259210e-08 
+Error of vP is 7.261861e-08 
+Error of vP is 5.904218e-08 
+Error of vP is 1.077746e-07 
+Error of vP is 9.156683e-08 
+Error of vP is 5.751077e-08 
+Error of vP is 7.267638e-08 
+Error of vP is 1.240986e-07 
+Error of vP is 6.401549e-08 
+Error of vP is 6.000897e-08 
+Error of vP is 5.447494e-08 
+Error of vP is 5.180170e-08 
+Error of vP is 5.300298e-08 
+Error of vP is 6.254707e-08 
+Error of vP is 6.394593e-08 
+Error of vP is 7.023938e-08 
+Error of vP is 6.634014e-08 
+Error of vP is 6.266498e-08 
+Error of vP is 6.297478e-08 
+Error of vP is 8.979193e-08 
+Error of vP is 5.262411e-08 
+>> >> 
+endtime =
+
+   3.0986e+04
+
+>> >> >> >> >> 

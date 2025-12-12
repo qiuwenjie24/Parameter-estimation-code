@@ -1,0 +1,35 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+Error of vP is 5.887864e-08 
+Error of vP is 7.018772e-08 
+Error of vP is 5.011043e-08 
+Error of vP is 7.448140e-08 
+Error of vP is 6.676803e-08 
+Error of vP is 5.899076e-08 
+Error of vP is 6.621510e-08 
+Error of vP is 6.546769e-08 
+Error of vP is 9.032333e-08 
+Error of vP is 5.625927e-08 
+Error of vP is 7.273360e-08 
+Error of vP is 5.208200e-08 
+Error of vP is 5.046296e-08 
+Error of vP is 6.332035e-08 
+Error of vP is 8.521335e-08 
+Error of vP is 7.546970e-08 
+>> >> 
+endtime =
+
+   1.9244e+04
+
+>> >> >> >> >> 
